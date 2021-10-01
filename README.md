@@ -80,13 +80,13 @@ Beste zangers deelnemers
 ### Stand van zaken
 Deze week ben ik begonnen met de html van de homepage. Het was niet heel veel en de meeste dingen zitten denk ik wel goed maar voor een aantal stukjes weet ik niet of ik de goede elementen gebruik. 
 
-Vragen:
-V: Hoe verwijder ik de bestanden die ik verkeerd heb toegevoegd?
-A: Zelf uitgezocht
-V: Waarom staat er (deleted) achter mijn readme file?
-A: Had hem in de verkeerde map staan
-V: Waarom slaat mijn html niet op?
-A: Cache moest geleegd worden
+Vragen:  
+* V: Hoe verwijder ik de bestanden die ik verkeerd heb toegevoegd?
+* A: Zelf uitgezocht
+* V: Waarom staat er (deleted) achter mijn readme file?
+* A: Had hem in de verkeerde map staan
+* V: Waarom slaat mijn html niet op?
+* A: Cache moest geleegd worden
 
 <img src="images/voortgang1.png" width="375px" alt="screenshot van homepage">
 <img src="images/voortgang1.1.png" width="375px" alt="html deel 1">
@@ -106,11 +106,11 @@ A: Cache moest geleegd worden
 ### Stand van zaken
 Deze week heb ik de andere html er bij gemaakt en ben ik begonnen aan een stukje CSS. Hierbij heb ik vooral de basisopmaak en de makkelijke dingen gedaan dus hier kwam ik nog redelijk goed uit.
 
-Vragen:
-V: Moeten de socials ook in een ul?
-A: Ja
-V: Hoe load je een webfont in?
-A: Zelf uitgezocht
+Vragen:  
+* V: Moeten de socials ook in een ul?
+* A: Ja
+* V: Hoe load je een webfont in?
+* A: Zelf uitgezocht
 
 <img src="images/voortgang2.png" width="375px" alt="screenshot van homepage">
 <img src="images/voortgang2.2.png" width="375px" alt="css">
@@ -127,90 +127,30 @@ A: Zelf uitgezocht
 ### Stand van zaken
 Deze week ben ik verder gegaan met zowel de html als de css. Ik heb me vooral gefocust op de header.
 
-Vragen:
-V: Waarom laden mijn screenshots in de README niet?
-V: Hoe deel ik het bovenste balkje in?
-V: Klopt section in header?
-V: Wat is het verschil tussen 
-li a
-&
-li > a
-V: Waarom zit er een blauwe rand om de section in de header?
-V: Het font van de website is geen webfont, moet ik een kiezen die er op lijkt?
+Vragen:  
+* V: Waarom laden mijn screenshots in de README niet?
+* A: Opgelost
+* V: Hoe deel ik het bovenste balkje in?
+* A: ul
+* V: Klopt section in header?
+* A: Nee, mag een div zijn
+* V: Wat is het verschil tussen 
+* li a
+* &
+* li > a
+* A: > gebruik je alleen voor direct child als het niet anders kan
+* V: Waarom zit er een blauwe rand om de section in de header?
+* A: Dat is een standaard opmaak, die kan je resetten door bij de elementen padding en margin op 0 te zetten.
+* V: Het font van de website is geen webfont, moet ik een kiezen die er op lijkt?
+* A: Ja  
+Comment: Begin vast met de flexbox en micro interactie: zoekbalkje die invliegt
 
-
-
-
-
-</details>
-
-
-## Toegankelijkheidstest (week 4)
-
-<details>
-<summary>uitwerken na test in 8e voortgang</summary>
-
-### Bevindingen
-Lijst met je bevindingen die in de test naar voren kwamen:
-
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+<img src="images/voortgang3.png" width="375px" alt="screenshot van homepage">
+<img src="images/voortgang3.1.png" width="375px" alt="html">
+<img src="images/voortgang3.2.png" width="375px" alt="css">
+<img src="images/voortgang3.3.png" width="375px" alt="css">
 
 </details>
-
-
-
-
-
-## Voortgang 3 (week 4)
-
-<details>
-<summary>uitwerken voor 3e voortgang</summary>
-
-### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-
-### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
-
-</details>
-
 
 
 
