@@ -81,11 +81,11 @@ Beste zangers deelnemers
 Deze week ben ik begonnen met de html van de homepage. Het was niet heel veel en de meeste dingen zitten denk ik wel goed maar voor een aantal stukjes weet ik niet of ik de goede elementen gebruik. 
 
 Vragen:
-> Hoe verwijder ik de bestanden die ik verkeerd heb toegevoegd?
+V: Hoe verwijder ik de bestanden die ik verkeerd heb toegevoegd?
 A: Zelf uitgezocht
-> Waarom staat er (deleted) achter mijn readme file?
+V: Waarom staat er (deleted) achter mijn readme file?
 A: Had hem in de verkeerde map staan
-> Waarom slaat mijn html niet op?
+V: Waarom slaat mijn html niet op?
 A: Cache moest geleegd worden
 
 <img src="images/voortgang1.png" width="375px" alt="screenshot van homepage">
@@ -107,9 +107,9 @@ A: Cache moest geleegd worden
 Deze week heb ik de andere html er bij gemaakt en ben ik begonnen aan een stukje CSS. Hierbij heb ik vooral de basisopmaak en de makkelijke dingen gedaan dus hier kwam ik nog redelijk goed uit.
 
 Vragen:
-> Moeten de socials ook in een ul?
+V: Moeten de socials ook in een ul?
 A: Ja
-> Hoe load je een webfont in?
+V: Hoe load je een webfont in?
 A: Zelf uitgezocht
 
 <img src="images/voortgang2.png" width="375px" alt="screenshot van homepage">
@@ -125,17 +125,21 @@ A: Zelf uitgezocht
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-Deze week heb ik de andere html er bij gemaakt en ben ik begonnen aan een stukje CSS. Hierbij heb ik vooral de basisopmaak en de makkelijke dingen gedaan dus hier kwam ik nog redelijk goed uit.
+Deze week ben ik verder gegaan met zowel de html als de css. Ik heb me vooral gefocust op de header.
 
 Vragen:
-> Moeten de socials ook in een ul?
-A: Ja
-> Hoe load je een webfont in?
-A: Zelf uitgezocht
+V: Waarom laden mijn screenshots in de README niet?
+V: Hoe deel ik het bovenste balkje in?
+V: Klopt section in header?
+V: Wat is het verschil tussen 
+li a
+&
+li > a
+V: Waarom zit er een blauwe rand om de section in de header?
+V: Het font van de website is geen webfont, moet ik een kiezen die er op lijkt?
 
-<img src="images/voortgang1.png" width="375px" alt="screenshot van homepage">
-<img src="images/voortgang1.1.png" width="375px" alt="html deel 1">
-<img src="images/voortgang1.2.png" width="375px" alt="html deel 2">
+
+
 
 
 </details>

@@ -3,3 +3,73 @@
   box-sizing:border-box;  
 }
 
+
+/* Basisopmaak */
+body{
+  background-color: #e6e6ec;
+}
+
+header{
+  background-color: #020041;
+  color: #ffffff;
+}
+
+header > section{
+  background-image: url(/images/Beste-Zangers-Seizoen-2021.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 15em;
+}
+footer{
+  background-color: #020041;
+  color: #ffffff;
+}
+
+main{
+  color: #020041;
+}
+
+h1, h2, h3, h4, a{
+  font-family: GraphikBold,sans-serif;
+}
+
+h2{
+  font-size: 1em;
+}
+
+header > nav{
+  background-color: #ffffff;
+}
+
+header > nav > ul > li > a{
+  color: #020041;
+}
+
+li a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+ul{
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  white-space: nowrap;
+  overflow-x: scroll;
+}
+
+img{
+  height: 30px;
+}
+
+li > img{
+  display: block;
+  margin: .5em;
+}
+
+li > a{
+  display: block;
+  margin: .5em;
+  font-weight: bold;
+}
