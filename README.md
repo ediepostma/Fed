@@ -72,7 +72,7 @@ Beste zangers deelnemers
 
 
 
-## Voortgang 1 (week 2)
+## Voortgang 1 
 
 <details>
 <summary>uitwerken voor 1e voortgang</summary>
@@ -98,7 +98,7 @@ Vragen:
 
 
 
-## Voortgang 2 (week 3)
+## Voortgang 2 
 
 <details>
 <summary>uitwerken voor 2e voortgang</summary>
@@ -112,14 +112,14 @@ Vragen:
 * V: Hoe load je een webfont in?
 * A: Zelf uitgezocht
 
-<img src="images/voortgang2.png" width="375px" alt="screenshot van homepage">
-<img src="images/voortgang2.2.png" width="375px" alt="css">
+<img src="images/voortgang2.png" width="375px" alt="css">
+<img src="images/voortgang2.2.png" width="375px" alt="screenshot van homepage">
 
 
 </details>
 
 
-## Voortgang 3 (week 4)
+## Voortgang 3 
 
 <details>
 <summary>uitwerken voor 3e voortgang</summary>
@@ -143,7 +143,7 @@ Vragen:
 * A: Dat is een standaard opmaak, die kan je resetten door bij de elementen padding en margin op 0 te zetten.
 * V: Het font van de website is geen webfont, moet ik een kiezen die er op lijkt?
 * A: Ja  
-Comment: Begin vast met de flexbox en micro interactie: zoekbalkje die invliegt
+Comment: Begin vast met de flexbox en micro interactie: zoekbalkje die invliegt. Om de socials moet nog een a zodat ze klikbaar zijn
 
 <img src="images/voortgang3.png" width="375px" alt="screenshot van homepage">
 <img src="images/voortgang3.1.png" width="375px" alt="html">
@@ -153,9 +153,31 @@ Comment: Begin vast met de flexbox en micro interactie: zoekbalkje die invliegt
 </details>
 
 
+## Voortgang 4 
+
+<details>
+<summary>uitwerken voor 4e voortgang</summary>
+
+### Stand van zaken
+Deze week ben ik verder gegaan met een groot deel van de CSS en ben ik begonnen met het grid. Ook heb ik hulp gehad met het maken van een micro interactie.
+
+Vragen:  
+* V: waarom pakt het bovenste balkje de id niet?
+* A: 
+* V: waar komt dat kleine balkje in de articles vandaan? & margin om de header heen?
+* A: 
+* V: wat gebeurd er met de marge, width en overlapping bij het grid?
+* A: 
+
+<img src="images/voortgang4.png" width="375px" alt="screenshot van homepage">
+<img src="images/voortgang4.1.png" width="375px" alt="grid">
+<img src="images/voortgang4.2.png" width="375px" alt="javascript micro interactie">
+<img src="images/voortgang4.3.png" width="375px" alt="css voor micro interactie">
+
+</details>
 
 
-## Eindgesprek (week 5)
+## Eindgesprek 
 
 <details>
 <summary>uitwerken voor eindgesprek</summary>
@@ -180,8 +202,8 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
+1. w3schools
+2. Hulp van student Denise Radstaat
 3. ...
 
 </details>

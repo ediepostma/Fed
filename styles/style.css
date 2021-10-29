@@ -7,6 +7,7 @@
 /* Basisopmaak */
 body{
   background-color: #e6e6ec;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -14,43 +15,48 @@ header{
   color: #ffffff;
 }
 
-header > section{
-  background-image: url(/images/Beste-Zangers-Seizoen-2021.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 15em;
-}
 footer{
   background-color: #020041;
   color: #ffffff;
+  text-align: center;
 }
 
 main{
   color: #020041;
 }
 
-h1, h2, h3, h4, a{
-  font-family: GraphikBold,sans-serif;
+h1, h2{
+  text-align: center;
 }
 
 h2{
   font-size: 1em;
 }
 
+h3{
+  text-align: center;
+  margin: 2em;
+  font-size: 2em;
+}
+
 header > nav{
   background-color: #ffffff;
 }
 
-header > nav > ul > li > a{
-  color: #020041;
+img{
+  height: 30px;
 }
 
-li a{
-  color: #ffffff;
-  text-decoration: none;
+/* Achtergrond in header */
+header div{
+  background-image: url(/images/Beste-Zangers-Seizoen-2021.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 15em;
 }
 
-ul{
+/* Header */
+header ul{
   text-decoration: none;
   list-style-type: none;
   display: flex;
@@ -59,13 +65,28 @@ ul{
   overflow-x: scroll;
 }
 
-img{
-  height: 30px;
+header > nav > ul > li > a{
+  color: #020041;
+  padding: 1em;
+}
+
+li a{
+  color: #ffffff;
+  text-decoration: none;
 }
 
 li > img{
   display: block;
   margin: .5em;
+}
+
+header div:nth-of-type(2) ul{
+  display: flex;
+  justify-content: center;
+}
+
+header div:nth-of-type(2) ul li{
+  margin-top: 2em;
 }
 
 li > a{
@@ -77,4 +98,153 @@ li > a{
 ul {
   margin: 0;
   padding: 0;
+}
+
+.bovenstebalk{
+  background-color: #020041;
+}
+
+/* Article blokjes*/
+article h4{
+  background-color: #ffffff;
+  padding: 10%;
+  margin: 0;
+  text-align: center;
+}
+
+article img{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+article{
+  margin: 4em;
+}
+
+
+/* Responsive tablet */
+@media screen and (min-width:600px){
+section{
+  display: grid;
+  width: 90%;
+  grid-template-columns: 45% 45%;
+  grid-template-rows: auto auto auto;
+}
+
+section article:first-of-type{
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 1;
+grid-row-end: 2;
+}
+
+section article:nth-of-type(2){
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+section article:nth-of-type(3){
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+section article:nth-of-type(4){
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+section article:nth-of-type(5){
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+section article:nth-of-type(6){
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+}
+
+/* Responsive desktop */
+@media screen and (min-width:1050px){
+  section{
+    display: grid;
+    width: 90%;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: auto auto;
+  }
+  
+  section article:first-of-type{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  }
+  
+  section article:nth-of-type(2){
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  
+  section article:nth-of-type(3){
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  
+  section article:nth-of-type(4){
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  
+  section article:nth-of-type(5){
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  
+  section article:nth-of-type(6){
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+}
+
+
+/* Roze thema */
+.roze{
+  background-color: pink;
+}
+
+.roze article h4{
+  color: purple;
+}
+
+.roze footer{
+  background-color: purple;
+}
+
+.roze h3{
+  color: purple;
+}
+
+.roze a{
+  color: purple;
 }
