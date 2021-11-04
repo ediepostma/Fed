@@ -8,6 +8,8 @@
 body{
   background-color: #e6e6ec;
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 header{
@@ -35,7 +37,7 @@ h2{
 
 h3{
   text-align: center;
-  margin: 2em;
+  margin: 1em;
   font-size: 2em;
 }
 
@@ -47,27 +49,45 @@ img{
   height: 30px;
 }
 
+main section{
+  margin-bottom: 4em;
+}
+
 /* Achtergrond in header */
-header div{
-  background-image: url(/images/Beste-Zangers-Seizoen-2021.jpg);
+header > div{
+  background-image: url(../images/Beste-Zangers-Seizoen-2021.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 15em;
+  height: 20em;
 }
 
 /* Header */
-header ul{
+header nav ul{
   text-decoration: none;
   list-style-type: none;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   white-space: nowrap;
   overflow-x: scroll;
+}
+
+@media screen and (max-width:800px){
+  header nav ul{
+    justify-content: flex-start;
+}
+}
+
+header ul{
+list-style-type: none;
 }
 
 header > nav > ul > li > a{
   color: #020041;
   padding: 1em;
+}
+
+header > nav > ul > li > a:hover{
+  color: turquoise;
 }
 
 li a{
@@ -85,7 +105,7 @@ header div:nth-of-type(2) ul{
   justify-content: center;
 }
 
-header div:nth-of-type(2) ul li{
+header > div:nth-of-type(2) ul li{
   margin-top: 2em;
 }
 
@@ -100,8 +120,65 @@ ul {
   padding: 0;
 }
 
+/* Bovenste balk */
 .bovenstebalk{
   background-color: #020041;
+  background-image: none;
+  height: 6em;
+}
+
+.bovenstebalk ul{
+  padding: 1em;
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+}
+
+.bovenstebalk li:first-of-type{
+  margin-right:40%;
+}
+
+.bovenstebalk li:nth-of-type(2){
+  margin-right: 40%;
+}
+
+.bovenstebalk li:nth-of-type(4){
+  margin: 0;
+}
+
+.bovenstebalk li:nth-of-type(2) img{
+  height: 3em;
+}
+
+/* form*/
+input{
+  padding: .5em;
+  border: 2px solid #ccccd9;
+  border-radius: .2em;
+  width: 20em;
+}
+
+footer form button{
+  margin: 01em;
+  padding: .5em;
+  border: 2px solid #ccccd9;
+  background-color: #ffffff;
+  color: #ccccd9;
+  font-size: 1em;
+}
+
+main button{
+  margin: 0;
+  padding: .5em;
+  border: 2px solid #ccccd9;
+  background-color: #ffffff;
+  color: #ccccd9;
+  font-size: 1em;
+}
+
+main form{
+  display: flex;
+  justify-content: center;
 }
 
 /* Article blokjes*/
@@ -112,129 +189,75 @@ article h4{
   text-align: center;
 }
 
+a h4{
+  color: #020041;
+}
+
+a{
+text-decoration: none;
+}
+
 article img{
   width: 100%;
-  height: 100%;
+  height: 12em;
+  object-fit: cover;
   margin: 0;
 }
 
 article{
-  margin: 4em;
+  margin: 2em;
 }
 
-
-/* Responsive tablet */
-@media screen and (min-width:600px){
+/* responsive*/
 section{
   display: grid;
-  width: 90%;
-  grid-template-columns: 45% 45%;
-  grid-template-rows: auto auto auto;
+  grid-template-columns: repeat( auto-fit, minmax(350px, 1fr) );
 }
 
-section article:first-of-type{
-grid-column-start: 1;
-grid-column-end: 2;
-grid-row-start: 1;
-grid-row-end: 2;
+/* footer*/
+footer > div > ul{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 2em;
 }
 
-section article:nth-of-type(2){
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 2;
+footer a li{
+  color: #ffffff;
+  text-decoration: none;
+  list-style-type: none;
 }
 
-section article:nth-of-type(3){
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 2;
-  grid-row-end: 3;
+footer > nav {
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
 }
 
-section article:nth-of-type(4){
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 3;
-}
-
-section article:nth-of-type(5){
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 3;
-  grid-row-end: 4;
-}
-
-section article:nth-of-type(6){
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 3;
-  grid-row-end: 4;
-}
-}
-
-/* Responsive desktop */
-@media screen and (min-width:1050px){
-  section{
-    display: grid;
-    width: 90%;
-    grid-template-columns: 30% 30% 30%;
-    grid-template-rows: auto auto;
-  }
-  
-  section article:first-of-type{
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  }
-  
-  section article:nth-of-type(2){
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
-  }
-  
-  section article:nth-of-type(3){
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 2;
-  }
-  
-  section article:nth-of-type(4){
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
-  }
-  
-  section article:nth-of-type(5){
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
-  }
-  
-  section article:nth-of-type(6){
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 3;
-  }
+footer form{
+  background-color: #e6e6ec;
+  color: #020041;
+  padding: 2em;
+  width: 100%;
 }
 
 
 /* Roze thema */
+button{
+  margin: 5em;
+  padding: 1em;
+  border: none;
+  background-color: pink;
+  color: purple;
+  font-size: 1em;
+}
+
 .roze{
   background-color: pink;
 }
 
 .roze article h4{
   color: purple;
+  text-decoration: none;
 }
 
 .roze footer{
@@ -247,4 +270,43 @@ section article:nth-of-type(6){
 
 .roze a{
   color: purple;
+}
+
+.roze header div{
+  background-color: purple;
+}
+
+/* Groen thema */
+footer button:nth-of-type(2){
+  margin: 5em;
+  padding: 1em;
+  border: none;
+  background-color: greenyellow;
+  color: green;
+  font-size: 1em;
+}
+
+.groen{
+background-color: greenyellow;
+}
+
+.groen article h4{
+  color: green;
+  text-decoration: none;
+}
+
+.groen footer{
+  background-color: green;
+}
+
+.groen h3{
+  color: green;
+}
+
+.groen a{
+  color: green;
+}
+
+.groen header div{
+  background-color: green;
 }

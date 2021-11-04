@@ -52,26 +52,6 @@ Beste zangers deelnemers
 
 
 
-## Breakdownschets (week 1)
-
-<details>
-<summary>uitwerken na afloop 2e werkgroep</summary>
-
-### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
-
-### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
-
-</details>
-
-
-
-
-
 ## Voortgang 1 
 
 <details>
@@ -163,11 +143,11 @@ Deze week ben ik verder gegaan met een groot deel van de CSS en ben ik begonnen 
 
 Vragen:  
 * V: waarom pakt het bovenste balkje de id niet?
-* A: 
+* A: opgelost
 * V: waar komt dat kleine balkje in de articles vandaan? & margin om de header heen?
-* A: 
+* A: body heeft een padding
 * V: wat gebeurd er met de marge, width en overlapping bij het grid?
-* A: 
+* A: opgelost in css
 
 <img src="images/voortgang4.png" width="375px" alt="screenshot van homepage">
 <img src="images/voortgang4.1.png" width="375px" alt="grid">
@@ -183,11 +163,15 @@ Vragen:
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+De basis van html, css en js ken ik nu wel redelijk. Ik heb wat moeite gehad met flexbox en grid maar ben er voor het grootste deel wel uitgekomen. Het eindresultaat is in ieder geval een responsive website met microinteractie waar ik heel trots op ben.
 
 ### Screenshot(s)
 
-hier screenshot(s) van je eindresultaat
+<img src="images/eindsite1.png" width="375px" alt="screenshot van homepage">
+<img src="images/eindsite2.png" width="375px" alt="screenshot van homepage">
+<img src="images/eindsite3.png" width="375px" alt="screenshot van homepage op smallscreen">
+<img src="images/eindsite4.png" width="375px" alt="deelnemers pagina">
+<img src="images/eindsite5.png" width="375px" alt="footer met microinteractie">
 
 </details>
 
@@ -198,12 +182,13 @@ hier screenshot(s) van je eindresultaat
 ## Bronnenlijst
 
 <details open>
-<summary>continu bijhouden terwijl je werkt</summary>
 
-Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. w3schools
-2. Hulp van student Denise Radstaat
-3. ...
+1. https://www.w3schools.com/
+2. Hulp van student Denise Radstaat met micro interactie
+3. https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/
+4. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+5. https://flexboxfroggy.com/#nl
+
 
 </details>
